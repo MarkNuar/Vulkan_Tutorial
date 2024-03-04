@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "Source",
+			"path": "Source"
+		},
+		{
+			"name": "Notes",
+			"path": "Notes"
+		},
+		{
+			"name": "Tutorial_00",
+			"path": "Tutorial_00"
+		},
+		{
+			"name": "Tutorial_01",
+			"path": "Tutorial_01"
+		}
+	],
+	"settings": {}
+}

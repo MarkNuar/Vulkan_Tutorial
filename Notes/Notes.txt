@@ -12,4 +12,13 @@ Tutorial:
         /Users/marknuar/VulkanSDK/1.3.275.0
         (add all extensions)
 
-    
+    Setup multiple workspace:
+        https://www.youtube.com/watch?v=2yOQUtP_GcY
+        File -> Add folder to Workspace 
+        Then, save the workspace to file (give it a name)
+
+    CMakeList: 
+        Control all the versions inside the CMakeList list file, otherwise the compilation will fail. 
+
+    Lecture 1 source code: 
+        https://github.com/blurrypiano/littleVulkanEngine/tree/aba0f757a952daf7e89a342fcb3cfa21c568b757
