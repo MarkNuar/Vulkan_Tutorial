@@ -1,0 +1,15 @@
+Tutorial:
+    Vulkan Tutorials:
+        https://vulkan-tutorial.com
+
+    Makefile tutorial:
+        https://makefiletutorial.com
+        
+    CMakeList tutorial on MacOS + VSCode 
+        https://medium.com/@dexterchan_44737/visual-studio-code-build-and-debug-a-c-with-cmake-on-mac-os-7633bc59bf34
+
+    Vulkan Installation path:
+        /Users/marknuar/VulkanSDK/1.3.275.0
+        (add all extensions)
+
+    
