@@ -4,4 +4,4 @@ build/
 /.vs
 .idea/
 CMakeSettings.json
-**/.DS_Store
+.DS_Store
