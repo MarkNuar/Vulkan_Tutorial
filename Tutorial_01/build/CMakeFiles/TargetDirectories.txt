@@ -1,0 +1,3 @@
+/Users/marknuar/Repos/Vulkan_YoutubeTutorial/Tutorial_01/build/CMakeFiles/Tutorial_01.dir
+/Users/marknuar/Repos/Vulkan_YoutubeTutorial/Tutorial_01/build/CMakeFiles/edit_cache.dir
+/Users/marknuar/Repos/Vulkan_YoutubeTutorial/Tutorial_01/build/CMakeFiles/rebuild_cache.dir

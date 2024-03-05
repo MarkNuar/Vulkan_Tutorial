@@ -3,9 +3,9 @@
 
 namespace lve {
 
-void LveAppBase::run() {
-  while (!lveWindow.shouldClose()) {
-    glfwPollEvents();
+  void LveAppBase::run() {
+    while (!lveWindow.shouldClose()) {
+      glfwPollEvents();
+    }
   }
-}
 }  // namespace lve

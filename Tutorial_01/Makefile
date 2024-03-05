@@ -1,6 +1,6 @@
 include .env
 
-CFLAGS = -std=c++17 -I. -I$(VULKAN_SDK_PATH)/include
+CFLAGS = -std=c++17 -I. -I$(VULKAN_SDK_PATH)/macOS/include
 LDFLAGS = -L$(VULKAN_SDK_PATH)/lib `pkg-config --static --libs glfw3` -lvulkan
 
 a.out: *.cpp
