@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/marknuar/Repos/Vulkan_YoutubeTutorial/Tutorial_01/build",
-  "command": "/usr/bin/clang++  -I/opt/homebrew/include -I/Users/marknuar/VulkanSDK/1.3.275.0/macOS/include -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/Tutorial_01.dir/main.cpp.o -c /Users/marknuar/Repos/Vulkan_YoutubeTutorial/Tutorial_01/main.cpp",
-  "file": "/Users/marknuar/Repos/Vulkan_YoutubeTutorial/Tutorial_01/main.cpp",
-  "output": "CMakeFiles/Tutorial_01.dir/main.cpp.o"
-}
-]

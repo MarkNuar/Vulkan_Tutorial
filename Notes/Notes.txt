@@ -6,24 +6,27 @@ Tutorial:
         https://makefiletutorial.com
         
     CMakeList tutorial on MacOS + VSCode 
-        https://medium.com/@dexterchan_44737/visual-studio-code-build-and-debug-a-c-with-cmake-on-mac-os-7633bc59bf34
+        https://code.visualstudio.com/docs/cpp/cmake-linux
 
     Vulkan Installation path:
         /Users/marknuar/VulkanSDK/1.3.275.0
         (add all extensions)
 
-    Brew programs installation:
-	/opt/homebrew/bin
+    Brew programs installation path:
+	    /opt/homebrew/bin
 
     Setup multiple workspace:
         https://www.youtube.com/watch?v=2yOQUtP_GcY
         File -> Add folder to Workspace 
         Then, save the workspace to file (give it a name)
 
-    CMakeList: 
-        Control all the versions inside the CMakeList list file, otherwise the compilation will fail. 
-
     Steps: 
         Install Vulkan
         Install glfw, glm and cmake from brew
-        Copy the project 
+        Add the following extensions to VS Code:
+            C/C++ (with extension pack)
+            CMake
+            CMake Tools 
+        Follow tutorial to setup CMakeList, Build and Run
+            https://code.visualstudio.com/docs/cpp/cmake-linux
+        Build and run from bottom bar
