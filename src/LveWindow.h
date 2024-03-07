@@ -13,7 +13,8 @@ namespace lve
         ~LveWindow( );
 
         // Delete copy constructor and copy operator
-        // We don't want to copy an LveWindow and have a shared LveWindow reference, may result in dangling pointers
+        // We don't want to copy an LveWindow and have a shared window pointer
+        // may result in dangling pointers if one of the two deleted
         LveWindow(const LveWindow&) = delete;
         LveWindow &operator=(const LveWindow&) = delete;
 
