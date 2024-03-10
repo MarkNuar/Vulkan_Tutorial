@@ -1,11 +1,13 @@
-#include "LveWindow.h"
+#include "lve_window.h"
 
-namespace lve{
-    LveWindow::LveWindow(int w, int h, std::string name) : width{w}, height{h}, windowName{name}{
+#include <utility>
+
+namespace lve {
+    LveWindow::LveWindow(int w, int h, std::string name) : width{w}, height{h}, windowName{std::move(name)} {
         initWindow();
     }
 
-    LveWindow::~LveWindow(){
+    LveWindow::~LveWindow() {
         glfwDestroyWindow(window);
         glfwTerminate();
     }

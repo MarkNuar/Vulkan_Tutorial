@@ -6,14 +6,13 @@
 
 namespace lve
 {
-    class LveWindow
-    {
+    class LveWindow {
     public:
         LveWindow(int w, int h, std::string name);
         ~LveWindow( );
 
         // Delete copy constructor and copy operator
-        // We don't want to copy an LveWindow and have a shared window pointer
+        // We don't want to copy a lve_window and have a shared window pointer
         // may result in dangling pointers if one of the two deleted
         LveWindow(const LveWindow&) = delete;
         LveWindow &operator=(const LveWindow&) = delete;

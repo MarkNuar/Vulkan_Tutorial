@@ -11,7 +11,27 @@ Tutorial:
     Brew programs installation path:
 	    /opt/homebrew/bin
 
-    Setup multiple workspace:
-        https://www.youtube.com/watch?v=2yOQUtP_GcY
-        File -> Add folder to Workspace 
-        Then, save the workspace to file (give it a name)
+    CMakeList + CLion
+        cmd+shift+i to rebuild
+
+Graphics Pipeline
+    Input Assembler
+    # Vertex Shader
+    # Tesselation
+    # Geometry Shader
+    Rasterization
+    # Fragment Shader
+    Color Blending
+
+    The ones with # are Programmable Steps in GLSL, others are fixed
+
+GPU vs CPU: parallel computing on GPU
+
+Vertex and Fragment shaders:
+    .vert
+    .frag
+
+    To compile the glsl files (vert and frag shaders) we need the glsl compile (glslc), found in the Vulkan directory
+    installation:
+        /Users/marknuar/VulkanSDK/1.3.275.0/macOS/bin/glslc
+    We use a shell script to compile the shaders (give it write privileges chmod +x compile.sh)

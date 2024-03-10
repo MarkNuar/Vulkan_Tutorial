@@ -1,0 +1,6 @@
+# ninja log v5
+0	286	1710072082327250747	CMakeFiles/VulkanTutorial.dir/first_app.cpp.o	9dcf07e92c3b9fea
+1	288	1710072082328206957	CMakeFiles/VulkanTutorial.dir/lve_window.cpp.o	de6d8c683603f57e
+1	333	1710072082374437947	CMakeFiles/VulkanTutorial.dir/main.cpp.o	b4b229ea7a7b1211
+0	379	1710072082421215564	CMakeFiles/VulkanTutorial.dir/lve_pipeline.cpp.o	44395b8828e51ac6
+380	409	1710072082451858362	VulkanTutorial	d8c8e5eba296398c
