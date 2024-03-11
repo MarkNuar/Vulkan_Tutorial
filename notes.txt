@@ -35,3 +35,11 @@ Vertex and Fragment shaders:
     installation:
         /Users/marknuar/VulkanSDK/1.3.275.0/macOS/bin/glslc
     We use a shell script to compile the shaders (give it write privileges chmod +x compile.sh)
+
+Unix file permissions:
+    https://mason.gmu.edu/~montecin/UNIXpermiss.htm
+
+std::ifstream not finding any file:
+    Check which is the current directory with:
+         std::cout << std::filesystem::current_path() << std::endl;
+    And write the paths of the file accordingly (use ".." to go back one folder)
